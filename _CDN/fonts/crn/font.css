@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Courier New';
+    src: url('https://sjm.cdn.prutzel.com/fonts/crn/CourierNewPSMT.woff2') format('woff2'),
+		 url('https://sjm.cdn.prutzel.com/fonts/crn/CourierNewPSMT.woff') format('woff'),
+		 url('https://sjm.cdn.prutzel.com/fonts/crn/cour.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
