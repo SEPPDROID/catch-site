@@ -1,28 +1,13 @@
-/* const nav = document.querySelector('#nav');
-let navTop = navbar.offsetTop;
-
-function fixedNav() {
-  if (window.scrollY >= navTop) {    
-    navbar.classList.add('sticky');
-  } else {
-    navbar.classList.remove('sticky');    
-  }
-}
-
-window.addEventListener('scroll', fixedNav);
- */
- 
 /*  ===============================================
  Hide navbar on scrolldown, show on scrollup.
  =============================================== */
- 
-var prevScrollpos = window.pageYOffset;
+ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("navbar").style.top = "0";
   } else {
-    document.getElementById("navbar").style.top = "-52px";
+    document.getElementById("navbar").style.top = "-322px";
   }
   prevScrollpos = currentScrollPos;
 } 
@@ -41,3 +26,15 @@ window.onclick = function(e) {
     }
   }
 }
+
+/*  ===============================================
+ Drop & show mobile menu links.
+ =============================================== */
+function BurgMenFunc() {
+  var x = document.getElementById("navlinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+} 

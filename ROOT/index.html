@@ -43,13 +43,14 @@
   	<!-- NAV
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<nav id="navbar" style="top: 0px;">
+		<div id="navlinks">
 			<a href="https://seppjm.com">Home</a>
 			<a href="#About">AboutMe</a>
 			<a href="https://diodematrix.com">DiodeMatrix</a>
 			<a href="https://brain.seppdroid.com">BrainBlog</a>
 			<div class="dropdown">
 				<a href="#" class="dropbtn" onclick="DropFunc()">Links
-					<i class="fa fa-caret-down"></i>
+					<i href="javascript:void(0);" class="fa fa-caret-down"></i>
 				</a>
 				<div class="dropdown-content" id="DropList">
 					<a href="#">Twitter</a>
@@ -58,6 +59,10 @@
 					<a href="#">Contact</a>
 				</div>
 			</div>
+		</div>
+		<div id="burgermenu">
+			<a class="fa fa-bars" href="javascript:void(0);" style="font-size: 22px;" onclick="BurgMenFunc()"></a>
+		</div>
 	</nav> 
 </div>
   <div class="container">
