@@ -404,7 +404,8 @@ there.
 
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+}
 
 /* Disable mobile-nav when going above 550px.  */
 @media (max-width: 550px) {
@@ -562,3 +563,12 @@ text-decoration: none;
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
 
+/* 	=======================================================
+	Custom css.
+	======================================================= */
+footer {
+  text-align: center;
+  padding: 22px;
+  background-color: black;
+  color: white;
+}
