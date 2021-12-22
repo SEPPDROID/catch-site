@@ -1,15 +1,15 @@
 /*  ===============================================
  Hide navbar on scrolldown, show on scrollup.
  =============================================== */
- var prevScrollpos = window.pageYOffset;
+ var PrevScrollPos = window.pageYOffset;
 window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
+  var CurrentScrollPos = window.pageYOffset;
+  if (PrevScrollPos > CurrentScrollPos || CurrentScrollPos == 0) {
     document.getElementById("navbar").style.top = "0";
   } else {
     document.getElementById("navbar").style.top = "-322px";
   }
-  prevScrollpos = currentScrollPos;
+  PrevScrollPos = CurrentScrollPos;
 } 
 
 /*  ===============================================
