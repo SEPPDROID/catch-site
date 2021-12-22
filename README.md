@@ -7,6 +7,8 @@ my personal website, for if i ever need it. Build on the [skeleton boilerplate](
 I will add a `Clean` folder that will contain skeleton and my modifications for use as a template. 
 You can find the download in the [releases tab](https://github.com/SEPPDROID/seppjm-com/releases/latest)
 
+Or the direct [download link](https://github.com/SEPPDROID/seppjm-com/raw/master/TEMPLATE/CLEAN.zip)
+
 ## Licensing
 
 Feel free to use, just make sure to keep all licensing in place.
